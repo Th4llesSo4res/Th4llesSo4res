@@ -37,8 +37,9 @@
   <img align="right" alt="thalles-gif" src="https://i.picasion.com/pic92/7bff8046e7e9b9692d47fd1b020f0c38.gif"alt="https://picasion.com/"/>
 </div>
 
+<div align="left">
 <img src="https://raw.githubusercontent.com/Th4llesSo4res/Th4llesSo4res/output/snake.svg" alt="Snake animation" />
-
+</div>
 
 
 
