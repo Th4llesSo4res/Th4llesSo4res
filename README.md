@@ -40,8 +40,6 @@
 <img src="https://raw.githubusercontent.com/Th4llesSo4res/Th4llesSo4res/output/snake.svg" alt="Snake animation" />
 
 
-##
-
 
 
 
