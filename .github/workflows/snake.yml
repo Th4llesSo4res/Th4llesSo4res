@@ -1,31 +1,46 @@
-name: Generate Snake Animation
+# Nome da Actions:  
+name: Snake Game
 
+# Controlador do tempo que sera feito a atualização dos arquivos.
 on:
   schedule:
-    - cron: "0 0 * * *"
+      # Será atualizado a cada 5 horas.
+    - cron: "0 */5 * * *"
+
+# Permite executar na na lista de Actions (utilizado para testes de build).
   workflow_dispatch:
 
+# Regras
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
-    name: generate snake svg
     steps:
-      - uses: actions/checkout@v3
 
-      - name: Generate the snake animation
-        uses: Platane/snk@master
-        with:
-          github_user_name: Th4llesSo4res
-          outputs: |
-            ./output/github-contribution-grid-snake.svg
-          # Personalizações 👇
-          color_snake: neon
-          color_dots: "#444444, #666666, #888888, #AAAAAA, #CCCCCC"
-          grid_size: 10
-          background: "#000000"
+    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
+      - uses: actions/checkout@v2
 
-      - name: Push generated files
-        uses: EndBug/add-and-commit@v9
+    # Repositorio que será utilizado para gerar os arquivos.
+      - uses: Platane/snk@master
+        id: snake-gif
         with:
-          message: "🐍 update snake animation"
-          add: "output/github-contribution-grid-snake.svg"
+          github_user_name: Th4llesSo4res #Seu usuario
+          gif_out_path: dist/github-contribution-grid-snake.gif
+          svg_out_path: dist/github-contribution-grid-snake.svg
+
+      - run: git status
+
+      # Para as atualizações.
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+          force: true
+
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
+        with:
+          # the output branch we mentioned above
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
