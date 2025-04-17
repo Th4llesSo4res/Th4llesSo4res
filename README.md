@@ -34,4 +34,3 @@ ________________________________________________________________________________
 
 ![Snake animation](https://raw.githubusercontent.com/Th4llesSo4res/Th4llesSo4res/output/github-contribution-grid-snake.svg)
 
-
