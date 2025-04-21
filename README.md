@@ -7,8 +7,10 @@
 
 <div align="center">
   <a href="https://github.com/Th4llesSo4res">
-  <img width="42%" src="https://github-readme-stats.vercel.app/api?username=Th4llesSo4res&show_icons=true&theme=gruvbox_light">
-  <img width="46%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Th4llesSo4res&layout=compact&theme=gruvbox_light">
+  <img width="46%" src="https://github-readme-stats.vercel.app/api?username=Th4llesSo4res&show_icons=true&theme=gruvbox_light">
+  <img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Th4llesSo4res&layout=compact&theme=gruvbox_light">
+    
+  [![GitHub Streak](https://streak-stats.demolab.com/?user=Th4llesSo4res&theme=gruvbox_light)](https://git.io/streak-stats)
  
 </div>
     
