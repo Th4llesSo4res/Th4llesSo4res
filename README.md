@@ -1,13 +1,13 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=dd2539&height=120&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+Thalles+Soares;I+study+Technology+in+Internet+Systems+(TSI);at+the+Federal+Institute+of+Goiás;Be+Welcome!+:%29)](https://git.io/typing-svg) 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=dd2539&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+Thalles+Soares;I+study+Technology+in+Internet+Systems+(TSI);at+the+Federal+Institute+of+Goiás;Be+Welcome!+:%29)](https://git.io/typing-svg) 
 
 <div align="center">  
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Th4llesSo4res&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="Thalles Soares github stats"/> 
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Th4llesSo4res&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Th4llesSo4res&show_icons=true&count_private=true&hide_border=true&title_color=dd2539&icon_color=dd2539&text_color=a44808&bg_color=0d1117" alt="Thalles Soares github stats"/> 
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Th4llesSo4res&layout=compact&hide_border=true&title_color=dd2539&text_color=a44808&bg_color=0d1117" />
 </div>
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Th4llesSo4res&bg_color=000000&color=15e5a6&line=07e9a5&point=0a855c&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Th4llesSo4res&bg_color=000000&color=dd2539&line=dd2539&point=dd2539c&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center">
 
@@ -47,5 +47,5 @@
 ![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117&textColor=0D1117)&nbsp;
 
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=dd2539&height=120&section=footer"/>
 
